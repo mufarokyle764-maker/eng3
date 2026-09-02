@@ -1,0 +1,357 @@
+```javascript
+const words = [
+
+{
+    word:"Admire",
+    definition:"To respect or like someone or something because of its good qualities.",
+    synonym:"Respect",
+    antonym:"Dislike",
+    example:"I admire my teacher because she works hard."
+},
+
+{
+    word:"Brave",
+    definition:"Having courage and not being easily frightened.",
+    synonym:"Courageous",
+    antonym:"Cowardly",
+    example:"The brave boy helped the injured bird."
+},
+
+{
+    word:"Curious",
+    definition:"Wanting to know or learn something.",
+    synonym:"Inquisitive",
+    antonym:"Uninterested",
+    example:"The curious learner asked many questions."
+},
+
+{
+    word:"Difficult",
+    definition:"Not easy to do, understand or solve.",
+    synonym:"Hard",
+    antonym:"Easy",
+    example:"The mathematics question was difficult."
+},
+
+{
+    word:"Eager",
+    definition:"Very excited and ready to do something.",
+    synonym:"Keen",
+    antonym:"Unwilling",
+    example:"The learners were eager to start the trip."
+},
+
+{
+    word:"Famous",
+    definition:"Known by many people.",
+    synonym:"Well-known",
+    antonym:"Unknown",
+    example:"Victoria Falls is a famous tourist attraction."
+},
+
+{
+    word:"Generous",
+    definition:"Willing to give or share with others.",
+    synonym:"Giving",
+    antonym:"Selfish",
+    example:"My generous friend shared his lunch with me."
+},
+
+{
+    word:"Honest",
+    definition:"Always telling the truth and not cheating or stealing.",
+    synonym:"Truthful",
+    antonym:"Dishonest",
+    example:"An honest person admits when they make a mistake."
+},
+
+{
+    word:"Important",
+    definition:"Having great value or meaning.",
+    synonym:"Significant",
+    antonym:"Unimportant",
+    example:"Education is important for everyone's future."
+},
+
+{
+    word:"Jealous",
+    definition:"Feeling unhappy because someone has something you want.",
+    synonym:"Envious",
+    antonym:"Content",
+    example:"He felt jealous when his friend won the prize."
+},
+
+{
+    word:"Kind",
+    definition:"Being caring, helpful and considerate towards others.",
+    synonym:"Caring",
+    antonym:"Cruel",
+    example:"The kind learner helped a new student."
+},
+
+{
+    word:"Lazy",
+    definition:"Not willing to work or make an effort.",
+    synonym:"Idle",
+    antonym:"Hardworking",
+    example:"The lazy student refused to complete his homework."
+},
+
+{
+    word:"Mysterious",
+    definition:"Something that is difficult to understand or explain.",
+    synonym:"Strange",
+    antonym:"Obvious",
+    example:"The strange noise came from a mysterious place."
+},
+
+{
+    word:"Nervous",
+    definition:"Worried or afraid about something that might happen.",
+    synonym:"Anxious",
+    antonym:"Calm",
+    example:"She felt nervous before writing her examination."
+},
+
+{
+    word:"Obvious",
+    definition:"Easy to see, understand or recognise.",
+    synonym:"Clear",
+    antonym:"Unclear",
+    example:"It was obvious that the boy was tired."
+},
+
+{
+    word:"Polite",
+    definition:"Having good manners and showing respect to others.",
+    synonym:"Courteous",
+    antonym:"Rude",
+    example:"It is polite to greet people when you meet them."
+},
+
+{
+    word:"Quiet",
+    definition:"Making very little or no noise.",
+    synonym:"Silent",
+    antonym:"Noisy",
+    example:"The library was quiet during the examination."
+},
+
+{
+    word:"Reliable",
+    definition:"Someone or something that can be trusted.",
+    synonym:"Dependable",
+    antonym:"Unreliable",
+    example:"My reliable friend always keeps his promises."
+},
+
+{
+    word:"Successful",
+    definition:"Achieving what you wanted or planned to achieve.",
+    synonym:"Victorious",
+    antonym:"Unsuccessful",
+    example:"The team was successful in the competition."
+},
+
+{
+    word:"Tidy",
+    definition:"Neat, clean and well organised.",
+    synonym:"Neat",
+    antonym:"Messy",
+    example:"Keep your classroom tidy."
+},
+
+{
+    word:"Unique",
+    definition:"Being the only one of its kind.",
+    synonym:"Special",
+    antonym:"Common",
+    example:"Every person has a unique personality."
+},
+
+{
+    word:"Useful",
+    definition:"Helpful or valuable for a particular purpose.",
+    synonym:"Helpful",
+    antonym:"Useless",
+    example:"A dictionary is useful when learning new words."
+},
+
+{
+    word:"Victory",
+    definition:"Success in a competition, battle or challenge.",
+    synonym:"Win",
+    antonym:"Defeat",
+    example:"The football team celebrated their victory."
+},
+
+{
+    word:"Wise",
+    definition:"Having good judgement and making sensible decisions.",
+    synonym:"Sensible",
+    antonym:"Foolish",
+    example:"The wise old man gave the children good advice."
+},
+
+{
+    word:"Ancient",
+    definition:"Very old; belonging to a long time ago.",
+    synonym:"Old",
+    antonym:"Modern",
+    example:"The museum displayed ancient tools."
+},
+
+{
+    word:"Careful",
+    definition:"Taking care to avoid mistakes, danger or damage.",
+    synonym:"Cautious",
+    antonym:"Careless",
+    example:"Be careful when crossing the busy road."
+},
+
+{
+    word:"Confident",
+    definition:"Feeling sure about your abilities or decisions.",
+    synonym:"Self-assured",
+    antonym:"Uncertain",
+    example:"She felt confident before her speech."
+},
+
+{
+    word:"Creative",
+    definition:"Able to think of new ideas or make new things.",
+    synonym:"Imaginative",
+    antonym:"Unimaginative",
+    example:"The creative learner designed an amazing poster."
+},
+
+{
+    word:"Diligent",
+    definition:"Working hard and carefully.",
+    synonym:"Hardworking",
+    antonym:"Lazy",
+    example:"The diligent learner completed all the work on time."
+},
+
+{
+    word:"Enormous",
+    definition:"Extremely large.",
+    synonym:"Huge",
+    antonym:"Tiny",
+    example:"An enormous elephant walked across the road."
+},
+
+{
+    word:"Fragile",
+    definition:"Easily broken or damaged.",
+    synonym:"Delicate",
+    antonym:"Strong",
+    example:"The glass vase is fragile."
+},
+
+{
+    word:"Grateful",
+    definition:"Feeling thankful for something.",
+    synonym:"Thankful",
+    antonym:"Ungrateful",
+    example:"I am grateful for my parents' support."
+},
+
+{
+    word:"Helpful",
+    definition:"Giving assistance to someone.",
+    synonym:"Useful",
+    antonym:"Unhelpful",
+    example:"The helpful learner carried the books."
+},
+
+{
+    word:"Improve",
+    definition:"To make something better.",
+    synonym:"Develop",
+    antonym:"Worsen",
+    example:"I practise every day to improve my English."
+},
+
+{
+    word:"Journey",
+    definition:"The act of travelling from one place to another.",
+    synonym:"Trip",
+    antonym:"Stay",
+    example:"Our journey to Bulawayo took several hours."
+},
+
+{
+    word:"Knowledge",
+    definition:"Information and understanding gained through learning or experience.",
+    synonym:"Understanding",
+    antonym:"Ignorance",
+    example:"Reading books can increase your knowledge."
+},
+
+{
+    word:"Loyal",
+    definition:"Showing strong support and faithfulness to someone or something.",
+    synonym:"Faithful",
+    antonym:"Disloyal",
+    example:"A loyal friend will support you during difficult times."
+},
+
+{
+    word:"Opportunity",
+    definition:"A good chance to do or achieve something.",
+    synonym:"Chance",
+    antonym:"Obstacle",
+    example:"The competition gave me an opportunity to show my skills."
+},
+
+{
+    word:"Patient",
+    definition:"Able to wait calmly without becoming annoyed.",
+    synonym:"Calm",
+    antonym:"Impatient",
+    example:"The teacher was patient while explaining the problem."
+},
+
+{
+    word:"Respect",
+    definition:"A feeling of admiration for someone or something.",
+    synonym:"Honour",
+    antonym:"Disrespect",
+    example:"We should show respect to our elders."
+},
+
+{
+    word:"Struggle",
+    definition:"To have difficulty doing or achieving something.",
+    synonym:"Strive",
+    antonym:"Succeed",
+    example:"I sometimes struggle with difficult questions."
+},
+
+{
+    word:"Talented",
+    definition:"Having a natural ability to do something well.",
+    synonym:"Gifted",
+    antonym:"Untalented",
+    example:"She is a talented basketball player."
+},
+
+{
+    word:"Trust",
+    definition:"To believe that someone is honest and reliable.",
+    synonym:"Believe",
+    antonym:"Doubt",
+    example:"I trust my best friend."
+},
+
+{
+    word:"Wonderful",
+    definition:"Extremely good, enjoyable or impressive.",
+    synonym:"Amazing",
+    antonym:"Terrible",
+    example:"We had a wonderful day at the museum."
+}
+
+];
+```
